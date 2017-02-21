@@ -10,12 +10,12 @@ to date.
 Simple output for quick comparisons:
 
 ```console
-maciek@mothra:~/code/aux/heroku-ps-diff$ h ps:diff sushi -a sushi-staging
+$ heroku ps:diff sushi -a sushi-staging
 Process Type         In sushi-staging  In sushi
 ───────────────────  ────────────────  ────────────
 web                  1:Private-S       4:Private-M
 worker               1:Private-S       2:Private-M
-clock                1:Private-S       1:Private-M
+clock                --                1:Private-M
 ```
 
 ### Installation
