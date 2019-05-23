@@ -14,12 +14,16 @@
   "license": "ISC",
   "dependencies": {
     "co": "4.6.0",
-    "heroku-cli-util": "6.0.15",
+    "heroku-cli-util": "6.1.17",
     "lodash.uniq": "4.5.0"
   },
   "scripts": {
     "test": "standard && mocha"
   },
+  "files": [
+    "/index.js",
+    "/commands"
+  ],
   "devDependencies": {
     "chai": "3.5.0",
     "chai-as-promised": "6.0.0",
