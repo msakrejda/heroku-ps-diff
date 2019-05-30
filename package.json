@@ -1,6 +1,6 @@
 {
   "name": "heroku-ps-diff",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A heroku plugin to display differences between app dyno formations.",
   "main": "index.js",
   "author": "Maciek Sakrejda",
